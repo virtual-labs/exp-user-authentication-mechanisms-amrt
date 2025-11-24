@@ -1,36 +1,53 @@
 {
   "version": 2.0,
-  "questions": [
+  "pretest": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the main purpose of user authentication in a database?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To improve database performance",
+        "b": "To verify the identity of users accessing the database",
+        "c": "To backup database regularly",
+        "d": "To create tables and schemas"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Performance is unrelated to authentication.",
+        "b": "Correct! Authentication ensures only legitimate users access the database.",
+        "c": "Backups are separate from authentication.",
+        "d": "Creating tables is part of database operations, not authentication."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is an example of OS-based authentication?",
+      "answers": {
+        "a": "Oracle OPS$users",
+        "b": "LDAP integration",
+        "c": "Password hash comparison",
+        "d": "Certificate authentication"
+      },
+      "explanations": {
+        "a": "Correct! Oracle OPS$users trusts OS login for authentication.",
+        "b": "LDAP is external authentication, not OS-based.",
+        "c": "Password hash comparison is password-based authentication.",
+        "d": "Certificate authentication uses digital certificates, not OS login."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What does Multi-Factor Authentication (MFA) require?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Username only",
+        "b": "Password only",
+        "c": "Multiple proofs of identity like password and OTP",
+        "d": "Operating system credentials"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Username alone is not MFA.",
+        "b": "Password alone is not MFA.",
+        "c": "Correct! MFA requires multiple proofs like password and OTP or biometrics.",
+        "d": "OS credentials alone are not MFA."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

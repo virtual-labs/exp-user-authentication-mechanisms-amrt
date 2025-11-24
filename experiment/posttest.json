@@ -1,38 +1,55 @@
 {
   "version": 2.0,
-  "questions": [
+  "posttest": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which principle is followed when granting privileges to database users?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Principle of maximum access",
+        "b": "Principle of least privilege",
+        "c": "Principle of password sharing",
+        "d": "Principle of open access"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Maximum access can compromise security.",
+        "b": "Correct! The principle of least privilege grants users only necessary permissions.",
+        "c": "Sharing passwords violates security.",
+        "d": "Open access is not secure."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is NOT a password policy feature?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Password length and complexity",
+        "b": "Password expiry",
+        "c": "Session timeout",
+        "d": "Account locking"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Password length and complexity is part of password policy.",
+        "b": "Password expiry is a common password policy feature.",
+        "c": "Correct! Session timeout is part of session management, not password policy.",
+        "d": "Account locking is part of password policy for security."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens when a user exceeds the allowed number of failed login attempts?",
+      "answers": {
+        "a": "They gain admin privileges",
+        "b": "The account is locked",
+        "c": "The password resets automatically",
+        "d": "Nothing happens"
+      },
+      "explanations": {
+        "a": "Incorrect. Failed attempts do not grant privileges.",
+        "b": "Correct! Accounts lock after repeated failed login attempts.",
+        "c": "Passwords do not reset automatically due to failed logins.",
+        "d": "Incorrect. There is a security action taken."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
