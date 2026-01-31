@@ -2,37 +2,105 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Why is user authentication considered the first line of defense in database security?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It improves database speed",
+        "b": "It verifies user identity before allowing access",
+        "c": "It automatically encrypts all data",
+        "d": "It manages database backups"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Authentication does not affect performance.",
+        "b": "Authentication prevents unauthorized users from accessing the database.",
+        "c": "Encryption is a different security mechanism.",
+        "d": "Backups are unrelated to authentication."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What happens if a user provides correct credentials but the account is locked?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Access is granted immediately",
+        "b": "The database ignores the lock",
+        "c": "Access is denied despite correct credentials",
+        "d": "The password is reset automatically"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Locked accounts cannot log in.",
+        "b": "Account lock policies must be enforced.",
+        "c": "A locked account prevents access even with correct credentials.",
+        "d": "Passwords are not reset automatically."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How do password expiry policies improve database security?",
+      "answers": {
+        "a": "By reducing database size",
+        "b": "By forcing users to change passwords periodically",
+        "c": "By allowing unlimited login attempts",
+        "d": "By disabling old user accounts"
+      },
+      "explanations": {
+        "a": "Password expiry does not affect storage.",
+        "b": "Regular password changes reduce long-term password misuse.",
+        "c": "Unlimited attempts weaken security.",
+        "d": "Expiry policies do not automatically disable accounts."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which behavior indicates that an account lock policy is functioning correctly?",
+      "answers": {
+        "a": "Successful login after multiple wrong attempts",
+        "b": "Database shutdown after login failure",
+        "c": "User account becomes inaccessible after repeated failures",
+        "d": "Password is displayed to the user"
+      },
+      "explanations": {
+        "a": "Access should be restricted, not allowed.",
+        "b": "Login failures do not shut down databases.",
+        "c": "Account lock policies restrict access after repeated failures.",
+        "d": "Passwords are never displayed."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is observing error messages during failed login attempts important?",
+      "answers": {
+        "a": "To increase login speed",
+        "b": "To understand how authentication mechanisms respond",
+        "c": "To change database tables",
+        "d": "To bypass security controls"
+      },
+      "explanations": {
+        "a": "Error messages do not affect speed.",
+        "b": "They help understand authentication behavior.",
+        "c": "Login attempts do not modify tables.",
+        "d": "Security controls cannot be bypassed."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "After completing this experiment, what skill is primarily achieved?",
+      "answers": {
+        "a": "Designing database schemas",
+        "b": "Configuring and managing database user authentication",
+        "c": "Optimizing query performance",
+        "d": "Developing web applications"
+      },
+      "explanations": {
+        "a": "Schema design is a separate task.",
+        "b": "The experiment focuses on authentication configuration and management.",
+        "c": "Performance tuning is unrelated.",
+        "d": "Web development is outside the experiment scope."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
