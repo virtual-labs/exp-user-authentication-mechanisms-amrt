@@ -1,0 +1,1 @@
+The objective of this experiment is to understand how database systems authenticate users. The outcome of this experiment lies in the ability to configure and manage database user authentication mechanisms.
