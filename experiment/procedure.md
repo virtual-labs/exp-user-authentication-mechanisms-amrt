@@ -1,35 +1,61 @@
-**Step 1: Initial Login Attempt (Invalid User)**  
-Enter `user1` in the Username field and any password in the Test Authentication panel, then click **Start Simulation**.
+## Registration & Security Policies
 
-<img src="images/Step1.png" title="" />  
-&nbsp;
+### Configure Security Policies
 
-**Step 2: User Creation**  
-Navigate to the **User Management** tab, enter a username (e.g., `ammauser`), select **Role**, set a compliant password, and click **Create User Account**.
+1. Navigate to the **Registration & Security Policies** tab.
+<div><img src="./images/registration.png" ></div>
 
-<img src="images/step2.png" title="" />  
-&nbsp;
+2. Click View Advanced Policies to see the detailed configuration.
+<div><img src="./images/registration2.png" ></div>
 
-**Step 3: Configure Security Policies**  
-Go to the **Security Policies** tab and set constraints such as minimum password length, character requirements, and maximum login attempts.
 
-<img src="images/step3.png" title="" />  
-&nbsp;
+3. Set minimum password length, required characters (uppercase, numbers, etc.), and account lockout rules (e.g., 3 attempts) then on Click Apply These Policies to update the system rules.
 
-**Step 4: Successful Login with Valid Credentials**  
-Return to the **Authentication Simulation** tab, enter the created username and correct password, then click **Start Simulation**.
+<div><img src="./images/authLock.png" ></div>
 
-<img src="images/step4.png" title="" />  
-&nbsp;
+###  Register a New User
 
-**Step 5: Observe Password Verification**  
-Step 6 in the simulation highlights **Password Verification**, where the system compares the hashed input with the stored hash.
+- Return to the **Registration** sub-tab.
+- **Username**: Enter a unique name for your account.
+- **Email**: Provide an optional email address.
+- **Password**: Type a password while monitoring the **Password Strength** meter. It must match the current security policies.
+- **Verification**: Re-type the password in the **Confirm Password** field.
+- Click **Register as user**. You will see a success message if the inputs are valid.
 
-<img src="images/step5.png" title="" />  
-&nbsp;
+<div><img src="./images/registration3.png" ></div>
 
-**Step 6: Session Creation & Access Granted**  
-Upon successful verification, Step 7 creates a session token and Step 8 returns a **200 OK** response, with a **SUCCESS** badge in the Authentication Log.
+## Authentication & DB Visualization
 
-<img src="images/step6.png" title="" />  
-&nbsp;
+###  Start the Authentication Simulation and Observe the Verification Steps
+
+- Switch to the **Authentication & DB Visualization** tab.
+
+<!-- - In the **Test Authentication** panel, enter the username and password you just created.
+- Click **Start Simulation**. -->
+
+1.  **Login Request**: User credentials are submitted to the server.
+2.  **Input Validation**: The system checks for empty fields or invalid formats.
+3.  **User Lookup**: A database query (`SELECT`) is run to find the user.
+4.  **Status Check**: Verifies if the account is active or locked.
+5.  **Password Hashing**: The entered plaintext password is hashed (SHA-256).
+6.  **Password Verification**: The new hash is compared against the stored hash.
+7.  **Session Creation**: On success, a secure session token is generated.
+8.  **Access Granted**: The user is redirected to the dashboard.
+<div><img src="./images/auth1.png" ></div>
+
+- **Successful Login**: Enter the correct credentials for your registered user and observe the access being granted.
+<div><img src="./images/auth4.png" ></div>
+
+### Test Failure Scenarios
+
+- **Non-Existent User**: Enter a username that hasn't been registered. Observe the failure at **Step 3 (User Lookup)**.
+
+<div><img src="./images/auth3.png" ></div>
+
+- **Incorrect Password**: Use a valid username but the wrong password. Observe the failure at **Step 6 (Password Verification)** and note the **Failed Attempts** counter increasing in the logs.
+
+<div><img src="./images/auth2.png" ></div>
+
+- **Account locked**: Repeat incorrect logins until the maximum attempts are reached (e.g., 3). Verify that the account status changes to **Locked**.
+
+<div><img src="./images/authLock.png" ></div>
