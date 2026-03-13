@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the primary purpose of user authentication in database systems?",
+      "answers": {
+        "a": "To store large amounts of data",
+        "b": "To verify the identity of users before granting access",
+        "c": "To improve database performance",
+        "d": "To encrypt database tables"
+      },
+      "explanations": {
+        "a": "Storing data is a function of databases, not authentication.",
+        "b": "Authentication ensures only authorized users can access the database.",
+        "c": "Performance optimization is not the goal of authentication.",
+        "d": "Encryption is a separate security mechanism."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which credentials are commonly used for user authentication in a DBMS?",
+      "answers": {
+        "a": "IP address and port number",
+        "b": "Database name and table name",
+        "c": "Username and password",
+        "d": "File name and file size"
+      },
+      "explanations": {
+        "a": "IP addresses are used for network identification.",
+        "b": "Database and table names do not authenticate users.",
+        "c": "Username and password are standard authentication credentials.",
+        "d": "File details are unrelated to authentication."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "When does a database system grant access to a user?",
+      "answers": {
+        "a": "When the username is correct",
+        "b": "When the password is strong",
+        "c": "When credentials are correct and the account is active",
+        "d": "When the user requests access"
+      },
+      "explanations": {
+        "a": "Both username and password must be correct.",
+        "b": "Password strength alone does not grant access.",
+        "c": "Access is granted only if credentials are valid and the account is active.",
+        "d": "Requesting access does not guarantee permission."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of password complexity policies?",
+      "answers": {
+        "a": "To make passwords easier to remember",
+        "b": "To reduce storage space",
+        "c": "To create strong passwords and improve security",
+        "d": "To allow unlimited login attempts"
+      },
+      "explanations": {
+        "a": "Complex passwords are often harder to remember.",
+        "b": "Password policies do not affect storage size.",
+        "c": "Complex passwords reduce the risk of unauthorized access.",
+        "d": "Unlimited attempts reduce security."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens when a user enters incorrect login credentials multiple times?",
+      "answers": {
+        "a": "The database deletes the user account",
+        "b": "The database shuts down",
+        "c": "The account may be locked",
+        "d": "The password is displayed"
+      },
+      "explanations": {
+        "a": "Accounts are not deleted automatically.",
+        "b": "Incorrect logins do not shut down databases.",
+        "c": "Account lock mechanisms prevent repeated unauthorized attempts.",
+        "d": "Passwords are never displayed for security reasons."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are incorrect login attempts performed during this experiment?",
+      "answers": {
+        "a": "To change the database schema",
+        "b": "To test backup mechanisms",
+        "c": "To observe authentication errors and account lock behavior",
+        "d": "To increase database speed"
+      },
+      "explanations": {
+        "a": "Login attempts do not affect schema.",
+        "b": "Backups are unrelated to authentication testing.",
+        "c": "Incorrect attempts help understand authentication responses.",
+        "d": "Authentication does not control speed."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
