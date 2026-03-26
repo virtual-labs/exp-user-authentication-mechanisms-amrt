@@ -1,7 +1,7 @@
-#### [User Authentication in DBMS](https://www.geeksforgeeks.org/dbms/what-is-user-authentication-in-dbms/)
+#### [User Authentication in DBMS (PostgreSQL)](https://www.postgresql.org/docs/current/client-authentication.html)
 
-#### [Password Storage & Hashing](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
+#### [Digital Identity Guidelines - Authentication and Lifecycle Management (NIST)](https://pages.nist.gov/800-63-3/sp800-63b.html)
 
-#### [Authentication vs. Authorization](https://www.okta.com/identity-101/authentication-vs-authorization/)
+#### [Authentication vs. Authorization (Microsoft)](https://learn.microsoft.com/en-us/entra/identity-platform/authentication-vs-authorization)
 
-#### [Database Security & Auditing](https://www.imperva.com/learn/data-security/database-security/)
+#### [Introduction to Database Security (Oracle)](https://docs.oracle.com/en/database/oracle/oracle-database/23/dbseg/introduction-to-oracle-database-security.html)
