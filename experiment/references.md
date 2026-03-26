@@ -1,7 +1,12 @@
-#### [User Authentication in DBMS](https://www.geeksforgeeks.org/dbms/what-is-user-authentication-in-dbms/)
 
-#### [Password Storage & Hashing](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
+- **NIST**: *Digital Identity Guidelines - Authentication and Lifecycle Management (SP 800-63B)*.
+  Available at: [https://pages.nist.gov/800-63-3/sp800-63b.html](https://pages.nist.gov/800-63-3/sp800-63b.html)
 
-#### [Authentication vs. Authorization](https://www.okta.com/identity-101/authentication-vs-authorization/)
+- **Microsoft**: *Authentication in SQL Server*.
+  Available at: [https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/authentication-in-sql-server](https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/authentication-in-sql-server)
 
-#### [Database Security & Auditing](https://www.imperva.com/learn/data-security/database-security/)
+- **Oracle**: *Configuring Authentication in Oracle Database*.
+  Available at: [https://docs.oracle.com/en/database/oracle/oracle-database/19/dbseg/configuring-authentication.html](https://docs.oracle.com/en/database/oracle/oracle-database/19/dbseg/configuring-authentication.html)
+
+- **PostgreSQL**: *Client Authentication*.
+  Available at: [https://www.postgresql.org/docs/current/client-authentication.html](https://www.postgresql.org/docs/current/client-authentication.html)
