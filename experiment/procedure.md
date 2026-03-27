@@ -1,6 +1,6 @@
-## Registration & Security Policies
+<h2>Registration & Security Policies</h2>
 
-### Configure Security Policies
+<h3>Configure Security Policies</h3>
 
 1. Navigate to the **Registration & Security Policies** tab.
 <div><img src="./images/registration.png" ></div>
@@ -13,7 +13,7 @@
 
 <div><img src="./images/authLock.png" ></div>
 
-###  Register a New User
+<h3>Register a New User</h3>
 
 - Return to the **Registration** sub-tab.
 - **Username**: Enter a unique name for your account.
@@ -24,9 +24,9 @@
 
 <div><img src="./images/registration3.png" ></div>
 
-## Authentication & DB Visualization
+<h2>Authentication & DB Visualization</h2>
 
-###  Start the Authentication Simulation and Observe the Verification Steps
+<h3>Start the Authentication Simulation and Observe the Verification Steps</h3>
 
 - Switch to the **Authentication & DB Visualization** tab.
 
@@ -46,7 +46,7 @@
 - **Successful Login**: Enter the correct credentials for your registered user and observe the access being granted.
 <div><img src="./images/auth4.png" ></div>
 
-### Test Failure Scenarios
+<h3>Test Failure Scenarios</h3>
 
 - **Non-Existent User**: Enter a username that hasn't been registered. Observe the failure at **Step 3 (User Lookup)**.
 
