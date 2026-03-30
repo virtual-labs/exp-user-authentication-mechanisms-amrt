@@ -5,17 +5,17 @@
       "question": "What is the primary purpose of user authentication in database systems?",
       "answers": {
         "a": "To store large amounts of data",
-        "b": "To verify the identity of users before granting access",
-        "c": "To improve database performance",
+        "b": "To improve database performance",
+        "c": "To verify the identity of users before granting access",
         "d": "To encrypt database tables"
       },
       "explanations": {
         "a": "Storing data is a function of databases, not authentication.",
-        "b": "Authentication ensures only authorized users can access the database.",
-        "c": "Performance optimization is not the goal of authentication.",
+        "b": "Performance optimization is not the goal of authentication.",
+        "c": "Authentication ensures only authorized users can access the database.",
         "d": "Encryption is a separate security mechanism."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
