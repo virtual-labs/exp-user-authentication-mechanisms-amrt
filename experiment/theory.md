@@ -1,15 +1,24 @@
 <h4>1. Introduction</h4>
 <p>
-    <b>Authentication (AuthN)</b> is the process of verifying the identity of a user (e.g., "Are you who you say you are?"). 
-    It acts as the first line of defense, ensuring that only verified users can log in to the database system.
+    In database security, two foundational concepts work hand-in-hand to protect data: <b>Authentication</b> and <b>Authorization</b>.
 </p>
+<ul>
+    <li>
+        <b>Authentication (AuthN):</b> The process of verifying a user's identity. It answers the question, <i>"Are you who you say you are?"</i> 
+        Authentication acts as the primary gateway, requiring credentials (like a username and password) to allow entry into the system.
+    </li>
+    <li>
+        <b>Authorization (AuthZ):</b> The process of determining what actions a verified user is permitted to perform. It answers the question, <i>"What are you allowed to do?"</i> 
+        Once a user is authenticated, authorization ensures they can only access the data or commands they have been granted permission to use.
+    </li> 
+</ul>
 <p>
-    By verifying identities, the system prevents unauthorized access and protects sensitive data. 
-    This experiment focuses on the configuration and management of authentication mechanisms to ensure 
-    only legitimate users can access the system.
+    This experiment focuses <b>exclusively on Authentication</b>. By rigorously verifying identities, the system prevents unauthorized entry. 
+    We will explore the configuration and management of user accounts and password policies to ensure 
+    only legitimate users can access the database system.
 </p>
 
-<h4>2. Authentication Mechanisms and Policies</h4>
+<h4>2. Password Policies</h4>
 
 <h5>2.1 User Account Management</h5>
 <p>
