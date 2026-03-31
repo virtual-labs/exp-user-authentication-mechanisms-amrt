@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Why is user authentication considered the first line of defense in database security?",
+      "answers": {
+        "a": "It verifies user identity before allowing access",
+        "b": "It improves database speed",
+        "c": "It automatically encrypts all data",
+        "d": "It manages database backups"
+      },
+      "explanations": {
+        "a": "Authentication prevents unauthorized users from accessing the database.",
+        "b": "Authentication does not affect performance.",
+        "c": "Encryption is a different security mechanism.",
+        "d": "Backups are unrelated to authentication."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What happens if a user provides correct credentials but the account is locked?",
+      "answers": {
+        "a": "Access is granted immediately",
+        "b": "Access is denied despite correct credentials",
+        "c": "The database ignores the lock",
+        "d": "The password is reset automatically"
+      },
+      "explanations": {
+        "a": "Locked accounts cannot log in.",
+        "b": "A locked account prevents access even with correct credentials.",
+        "c": "Account lock policies must be enforced.",
+        "d": "Passwords are not reset automatically."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How do password expiry policies improve database security?",
+      "answers": {
+        "a": "By reducing database size",
+        "b": "By allowing unlimited login attempts",
+        "c": "By forcing users to change passwords periodically",
+        "d": "By disabling old user accounts"
+      },
+      "explanations": {
+        "a": "Password expiry does not affect storage.",
+        "b": "Unlimited attempts weaken security.",
+        "c": "Regular password changes reduce long-term password misuse.",
+        "d": "Expiry policies do not automatically disable accounts."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which behavior indicates that an account lock policy is functioning correctly?",
+      "answers": {
+        "a": "Successful login after multiple wrong attempts",
+        "b": "Database shutdown after login failure",
+        "c": "Password is displayed to the user",
+        "d": "User account becomes inaccessible after repeated failures"
+      },
+      "explanations": {
+        "a": "Access should be restricted, not allowed.",
+        "b": "Login failures do not shut down databases.",
+        "c": "Passwords are never displayed.",
+        "d": "Account lock policies restrict access after repeated failures."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is observing error messages during failed login attempts important?",
+      "answers": {
+        "a": "To understand how authentication mechanisms respond",
+        "b": "To increase login speed",
+        "c": "To change database tables",
+        "d": "To bypass security controls"
+      },
+      "explanations": {
+        "a": "They help understand authentication behavior.",
+        "b": "Error messages do not affect speed.",
+        "c": "Login attempts do not modify tables.",
+        "d": "Security controls cannot be bypassed."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "After completing this experiment, what skill is primarily achieved?",
+      "answers": {
+        "a": "Designing database schemas",
+        "b": "Optimizing query performance",
+        "c": "Developing web applications",
+        "d": "Configuring and managing database user authentication"
+      },
+      "explanations": {
+        "a": "Schema design is a separate task.",
+        "b": "Performance tuning is unrelated.",
+        "c": "Web development is outside the experiment scope.",
+        "d": "The experiment focuses on authentication configuration and management."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
